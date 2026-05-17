@@ -1,8 +1,7 @@
 {
   "functions": {
-    "api/**/*.ts": {
+    "index.ts": {
       "maxDuration": 30
     }
-  },
-  "outputDirectory": "dist"
+  }
 }
