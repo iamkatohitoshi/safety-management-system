@@ -1,0 +1,31 @@
+{
+  "name": "safety-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel serverless API for safety management system",
+  "scripts": {
+    "dev": "tsx watch src/dev-server.ts",
+    "build": "tsc",
+    "migrate": "tsx src/db/migrate.ts"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.0",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "drizzle-orm": "^0.36.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.24.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.11.0",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "drizzle-kit": "^0.28.0"
+  }
+}

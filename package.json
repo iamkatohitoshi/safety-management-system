@@ -1,0 +1,12 @@
+{
+  "name": "safety-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-tenant safety management platform with form builder and approval workflow engine",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:api": "cd api && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "build:api": "cd api && npm run build"
+  }
+}
